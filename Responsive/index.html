@@ -1,4 +1,4 @@
-<!-- Task 24-->
+<!-- Task 25-->
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
@@ -18,14 +18,12 @@
     <li>other cats</li>
   </ol>
   <form action="/submit-cat-photo">
-    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
-    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
-    <br>
-    <label for="loving"><input id="loving" type="checkbox" name="personality"> Loving </label>
-    <label for="lazy"><input id="lazy" type="checkbox" name="personality"> Lazy </label>
-    <label for="funny"><input id="funny" type="checkbox" name="personality">Funny</label>
-    <br>
     <button type="submit">Submit</button>
   </form>
 </main>
